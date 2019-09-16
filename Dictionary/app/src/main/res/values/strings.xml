@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="dictionary">Turkish Dictionary</string>
+    <string name="translation_dictionary">English Turkish Dictionary</string>
+</resources>

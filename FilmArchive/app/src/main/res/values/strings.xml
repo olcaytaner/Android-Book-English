@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Film Archive</string>
+    <string name="filmList">Film List</string>
+    <string name="addFilm">Add Film</string>
+    <string name="genreList">Genre List</string>
+    <string name="addGenre">Add Genre</string>
+    <string name="directorList">Director List</string>
+    <string name="addDirector">Add Director</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="genreName">Genre Name</string>
+    <string name="surname">Surname</string>
+    <string name="runtime">Runtime</string>
+    <string name="year">Year</string>
+    <string name="genre">Genre</string>
+    <string name="director">Director</string>
+    <string name="saveChanges">Save Changes</string>
+    <string name="delete">Delete</string>
+    <string name="goBack">Go Back</string>
+</resources>

@@ -1,0 +1,216 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Snap" >
+    <ImageView
+        android:id="@+id/computerCard1"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/computerCard"
+        android:src="@drawable/empty"
+        android:tag="4" />
+    <ImageView
+        android:id="@+id/computerCard2"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignTop="@+id/computerCard1"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/computerCard1"
+        android:contentDescription="@string/computerCard"
+        android:src="@drawable/empty"
+        android:tag="5" />
+    <ImageView
+        android:id="@+id/computerCard3"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignTop="@+id/computerCard2"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/computerCard2"
+        android:contentDescription="@string/computerCard"
+        android:src="@drawable/empty"
+        android:tag="6" />
+    <ImageView
+        android:id="@+id/computerCard4"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignTop="@+id/computerCard3"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/computerCard3"
+        android:contentDescription="@string/computerCard"
+        android:src="@drawable/empty"
+        android:tag="7" />
+    <ImageView
+        android:id="@+id/card1"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/computerCard1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/humanCard"
+        android:tag="0" />
+    <ImageView
+        android:id="@+id/card2"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/computerCard2"
+        android:layout_alignTop="@+id/card1"
+        android:contentDescription="@string/humanCard"
+        android:tag="1" />
+    <ImageView
+        android:id="@+id/card3"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignTop="@+id/card2"
+        android:layout_toLeftOf="@+id/computerCard4"
+        android:contentDescription="@string/humanCard"
+        android:tag="2" />
+    <ImageView
+        android:id="@+id/card4"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/computerCard4"
+        android:layout_alignTop="@+id/card3"
+        android:contentDescription="@string/humanCard"
+        android:tag="3" />
+    <ImageView
+        android:id="@+id/middleCard"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/humanCard"
+        android:tag="8" />
+    <ImageView
+        android:id="@+id/closedCard1"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignBottom="@+id/middleCard"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/computerCard2"
+        android:contentDescription="@string/closedCard"
+        android:src="@drawable/empty"
+        android:tag="9" />
+    <ImageView
+        android:id="@+id/closedCard2"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/closedCard1"
+        android:layout_alignTop="@+id/closedCard1"
+        android:layout_marginLeft="9dp"
+        android:contentDescription="@string/closedCard"
+        android:src="@drawable/empty"
+        android:tag="10" />
+    <ImageView
+        android:id="@+id/closedCard3"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/closedCard2"
+        android:layout_alignTop="@+id/closedCard1"
+        android:layout_marginLeft="9dp"
+        android:contentDescription="@string/closedCard"
+        android:src="@drawable/empty"
+        android:tag="11" />
+    <ImageView
+        android:id="@+id/closedCard4"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/closedCard3"
+        android:layout_alignTop="@+id/closedCard1"
+        android:layout_marginLeft="9dp"
+        android:contentDescription="@string/closedCard"
+        android:src="@drawable/empty"
+        android:tag="12" />
+   <ImageView
+       android:id="@+id/closedCard5"
+       android:layout_width="50dp"
+       android:layout_height="72dp"
+       android:layout_alignLeft="@+id/closedCard4"
+       android:layout_alignTop="@+id/closedCard1"
+       android:layout_marginLeft="9dp"
+       android:contentDescription="@string/closedCard"
+       android:src="@drawable/empty"
+       android:tag="13" />    
+    <ImageView
+        android:id="@+id/closedCard6"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/closedCard5"
+        android:layout_alignTop="@+id/closedCard1"
+        android:layout_marginLeft="9dp"
+        android:contentDescription="@string/closedCard"
+        android:src="@drawable/empty"
+        android:tag="14" />
+    <ImageView
+        android:id="@+id/closedCard7"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/closedCard6"
+        android:layout_alignTop="@+id/closedCard1"
+        android:layout_marginLeft="9dp"
+        android:contentDescription="@string/closedCard"
+        android:src="@drawable/empty"
+        android:tag="15" />
+   <ImageView
+       android:id="@+id/closedCard8"
+       android:layout_width="50dp"
+       android:layout_height="72dp"
+       android:layout_alignLeft="@+id/closedCard7"
+       android:layout_alignTop="@+id/closedCard1"
+       android:layout_marginLeft="9dp"
+       android:contentDescription="@string/closedCard"
+       android:src="@drawable/empty"
+       android:tag="16" />    
+   <ImageView
+       android:id="@+id/closedCard9"
+       android:layout_width="50dp"
+       android:layout_height="72dp"
+       android:layout_alignLeft="@+id/closedCard8"
+       android:layout_alignTop="@+id/closedCard1"
+       android:layout_marginLeft="9dp"
+       android:contentDescription="@string/closedCard"
+       android:src="@drawable/empty"
+       android:tag="17" />    
+    <ImageView
+        android:id="@+id/closedCard10"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/closedCard9"
+        android:layout_alignTop="@+id/closedCard1"
+        android:layout_marginLeft="9dp"
+        android:contentDescription="@string/closedCard"
+        android:src="@drawable/empty"
+        android:tag="18" />
+    <ImageView
+        android:id="@+id/closedCard11"
+        android:layout_width="50dp"
+        android:layout_height="72dp"
+        android:layout_alignLeft="@+id/closedCard10"
+        android:layout_alignTop="@+id/closedCard1"
+        android:layout_marginLeft="9dp"
+        android:contentDescription="@string/closedCard"
+        android:src="@drawable/empty"
+        android:tag="19" />
+   <ImageView
+       android:id="@+id/closedCard12"
+       android:layout_width="50dp"
+       android:layout_height="72dp"
+       android:layout_alignLeft="@+id/closedCard11"
+       android:layout_alignTop="@+id/closedCard1"
+       android:layout_marginLeft="9dp"
+       android:contentDescription="@string/closedCard"
+       android:src="@drawable/empty"
+       android:tag="20" />
+   <ImageView
+       android:id="@+id/closedCard13"
+       android:layout_width="50dp"
+       android:layout_height="72dp"
+       android:layout_alignLeft="@+id/closedCard12"
+       android:layout_alignTop="@+id/closedCard1"
+       android:layout_marginLeft="9dp"
+       android:contentDescription="@string/closedCard"
+       android:src="@drawable/empty"
+       android:tag="21" />
+</RelativeLayout>

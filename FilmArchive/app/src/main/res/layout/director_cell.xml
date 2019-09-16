@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent" 
+   android:layout_height="match_parent"
+   android:orientation="horizontal">
+	<TextView android:id="@+id/directorName"
+	android:layout_width="220sp"
+   	android:layout_height="wrap_content" android:padding="8dp"
+   	android:textSize="20sp" android:textColor="@android:color/black"
+   	android:minHeight="?android:attr/listPreferredItemHeight"
+   	android:gravity="center_vertical">
+	</TextView>
+	<TextView android:id="@+id/directorSurname"
+	android:layout_width="100sp"
+   	android:layout_height="wrap_content" android:padding="8dp"
+   	android:textSize="20sp" android:textColor="@android:color/black"
+   	android:minHeight="?android:attr/listPreferredItemHeight"
+   	android:gravity="center_vertical">
+	</TextView>
+</LinearLayout>

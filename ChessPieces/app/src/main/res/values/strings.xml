@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chess Pieces</string>
+    <string name="control">Control</string>
+    <string name="new_puzzle">New Puzzle</string>
+    <string name="solve">Solve</string>
+</resources>

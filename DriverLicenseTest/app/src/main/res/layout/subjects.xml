@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TableRow
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/trafficCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="1"
+            android:text="@string/traffic" />
+        <SeekBar
+            android:id="@+id/trafficSeekBar"
+            android:layout_width="80pt"
+            android:layout_height="wrap_content"
+            android:tag="1" />
+        <TextView
+            android:id="@+id/trafficCounter"
+            android:layout_width="15pt"
+            android:layout_height="wrap_content"
+            android:text="@string/ten"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/engineCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="2"
+            android:text="@string/engine" />
+        <SeekBar
+            android:id="@+id/engineSeekBar"
+            android:layout_width="70pt"
+            android:layout_height="wrap_content"
+            android:tag="2" />
+        <TextView
+            android:id="@+id/engineCounter"
+            android:layout_width="30pt"
+            android:layout_height="wrap_content"
+            android:text="@string/ten"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/line3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <CheckBox
+            android:id="@+id/firstAidCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="3"
+            android:text="@string/first_aid" />
+        <SeekBar
+            android:id="@+id/firstAidSeekBar"
+            android:layout_width="70pt"
+            android:layout_height="wrap_content"
+            android:tag="3" />
+        <TextView
+            android:id="@+id/firstAidCounter"
+            android:layout_width="30pt"
+            android:layout_height="wrap_content"
+            android:text="@string/ten"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+    <Button
+        android:id="@+id/restartExam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/restart_exam" />
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/go_back" />
+</TableLayout>

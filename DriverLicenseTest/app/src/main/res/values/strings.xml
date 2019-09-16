@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Driver License Test</string>
+    <string name="subjects">Subjects</string>
+    <string name="restart_exam">Restart Exam</string>
+    <string name="traffic">Traffic</string>
+    <string name="engine">Engine</string>
+    <string name="first_aid">First Aid</string>
+    <string name="ten">10</string>
+    <string name="go_back">Go Back</string>
+</resources>
